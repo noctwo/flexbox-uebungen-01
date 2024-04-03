@@ -1,0 +1,42 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+header{
+    height: 76px;
+    border-bottom: 1px solid red;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.logo{
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.logo:hover{
+    color: #333;
+}
+
+nav a{
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover{
+    color: #337ab7;
+}
